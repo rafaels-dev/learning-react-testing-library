@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<a
+  class="App-link"
+  href="https://reactjs.org"
+  rel="noopener noreferrer"
+  target="_blank"
+>
+  Learn React
+</a>
+`;
+
+exports[`renders loading 1`] = `
+<div
+  data-testid="loader"
+  id="loading"
+>
+  Carregando...
+</div>
+`;
