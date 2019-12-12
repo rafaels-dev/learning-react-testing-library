@@ -5,7 +5,7 @@ import axiosMock from 'axios';
 
 import Fetch from './fetch';
 
-test.only('loads and displays greetings', async () => {
+test('loads and displays greetings', async () => {
     const url = '/greeting';
 
     axiosMock.get.mockResolvedValueOnce({
