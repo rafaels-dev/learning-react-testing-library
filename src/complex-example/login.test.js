@@ -1,7 +1,6 @@
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
 import Login from './login';
-import { exportAllDeclaration } from '@babel/types';
 
  test('allows the user to login successfully', async () => {
     const fakeUserResponse = { token: 'fake_user_token' };
